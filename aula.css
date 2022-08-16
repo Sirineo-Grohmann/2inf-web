@@ -1,0 +1,77 @@
+body{
+
+background: #FFFFFF;
+
+}
+
+.banner {
+   width: 50%;
+   border-radius: 50%;
+}
+.caixa{
+   position: relative;
+   width: 940px;
+   right: 0 auto;
+}
+.caixa a {
+color: #000000;
+}
+header{
+   background: #CCCCCC;
+}
+nav li{
+   display: inline;
+   margin: 0 0 0 15px; /*espasçamento*/
+}
+nav a{
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+
+
+}
+/* Muda cor quando passa o mouse*/
+nav a:hover{ 
+   color:#C78C19;
+}
+
+nav{
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+
+.produto li{
+   display: inline-block;
+   margin: 10px;
+   text-align: center;
+   box-sizing: border-box;
+   border: solid;
+   border-color: #000000;
+   border-width: 5px;
+   border-radius: 10px;
+   border-style: bold; /*dotted dashed*/
+
+}
+.produto img{
+
+   width: 200px;
+   height: 200px;
+
+}
+
+.produto li:hover{
+   border-color: #C78C19;
+
+}
+
+.produto li:active{
+   border-color: #088C19;
+}
+
+.produto li:hover h2{
+text-transform: uppercase;
+font-size: 20px;
+
+}
