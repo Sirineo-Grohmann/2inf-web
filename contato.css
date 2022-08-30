@@ -1,3 +1,47 @@
+body{
+
+background: #FFFFFF;
+
+}
+
+.banner {
+   width: 50%;
+   border-radius: 50%;
+}
+.caixa{
+   position: relative;
+   width: 940px;
+   right: 0 auto;
+}
+.caixa a {
+color: #000000;
+}
+header{
+   background: #CCCCCC;
+}
+nav li{
+   display: inline;
+   margin: 0 0 0 15px; /*espasçamento*/
+}
+nav a{
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+
+
+}
+/* Muda cor quando passa o mouse*/
+nav a:hover{ 
+   color:#C78C19;
+}
+
+nav{
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+
 main{
 width: 940px;
 margin: 0 auto;
@@ -21,3 +65,14 @@ form input{
 	padding: 10px 25px;
 	width: 50%;
 }
+
+
+
+
+
+.footer{
+   text-align: center;
+
+   background: #CCCCCC;
+}
+

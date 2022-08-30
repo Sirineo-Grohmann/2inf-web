@@ -8,6 +8,20 @@
 
 </head>
 	<body>
+		<header>
+			<div class = "caixa">
+
+			<h1> <img class ="banner" src ="cafe1.jpg"></h1>
+
+			<nav>
+			<ul>
+			<li> <a href="index.html"> home </a></li>
+			<li> <a href="https://www.google.com.br/maps/@-25.2963364,-54.0956994,15z"> produto </a></li>
+			<li> <a href="contato.html"> contato </a></li>
+			</ul>
+			</nav>
+			</div>
+</header>
 		<main>
 			<form>
 
@@ -17,14 +31,32 @@
 				<label for="email">Email</label>
 				<input type="text" id="email">
 
-				<label for="radio-email">Email</label>
-				<input type="radio-email"></imnut>
-
 				<label for="telefone">Telefone</label>
 				<input type="text" id="telefone">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem"></textarea>
+
+				<label for="radio-email">Email</label>
+				<input type="radio" name="contato" value="email" id="radio-email"></imnut>
+
+				<label for="radio-telefone">Telefone</label>
+				<input type="radio" name="contato" value="telefone" id="radio-telefone"></imnut>
+
+				<label for="radio-whatsapp">WhatsApp</label>
+				<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"></imnut>
+
+
 
 				<input type="submit" value="Enviar formulário.">
 			</form>
 		</main>
+
+		<footer  class="footer">
+	
+			<p>Redigido por: Sirineo Grohmann          2022 Café &reg;   &copy; </p>
+
+		</footer>
+
 	</body>
 </html>
