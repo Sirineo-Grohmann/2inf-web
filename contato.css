@@ -1,0 +1,97 @@
+body{
+
+background: #CCCCCC;
+
+}
+
+.banner {
+   width: 50%;
+   border-radius: 50%;
+}
+.caixa{
+   position: relative;
+   width: 940px;
+   right: 0 auto;
+}
+.caixa a {
+color: #000000;
+}
+header{
+   background: #CCCCCC;
+}
+nav li{
+   display: inline;
+   margin: 0 0 0 15px; /*espasçamento*/
+}
+nav a{
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+
+
+}
+/* Muda cor quando passa o mouse*/
+nav a:hover{ 
+   color:#C78C19;
+}
+
+nav{
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+
+main{
+
+   width: 940px;
+   margin: 0 auto;
+
+}
+.titulo{
+   text-transform: uppercase;
+   text-align: center;
+   color: #0008ed;
+
+}
+form{
+
+	margin: 40px 40px;
+}
+
+form label, form p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.pagina1{
+
+   margin: 10px 0 ;
+
+}
+
+.atendimento{
+
+   margin: 10px 0;
+}
+
+.horario{
+
+   margin: 0 0 60px 0;
+}
+
+
+
+.footer{
+   text-align: center;
+
+   background: #CCCCCC;
+}
+
